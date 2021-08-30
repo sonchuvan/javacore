@@ -1,3 +1,4 @@
+package JavaBasicPrograms;
 class Factorial{
     public static void factorial(int n){
         int fac = 1;

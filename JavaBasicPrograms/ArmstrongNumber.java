@@ -1,3 +1,4 @@
+package JavaBasicPrograms;
 import java.lang.Math;
 class ArmstrongNumber{
     static void checkArmstrongNumber(int n){

@@ -1,3 +1,4 @@
+package JavaBasicPrograms;
 public class PrimeNumberEx{
     public static boolean primeNumber(int n){
         if (n<=1){

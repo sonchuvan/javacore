@@ -1,3 +1,4 @@
+package JavaBasicPrograms;
 import java.util.Scanner;
 
 public class PrintPattern {

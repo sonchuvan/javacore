@@ -1,3 +1,4 @@
+package JavaBasicPrograms;
 class Padlindrome{
     public static void checkPalindrome(int n){
         int n1 = n;
