@@ -2,6 +2,22 @@ package Number;
 
 
 public class Reverse {
+    private int a;
+    /**
+     * @param a the a to set
+     */
+    public void setA(int a) {
+        if(a >= 0){
+            this.a = a;
+        }
+        
+    }
+    /**
+     * @return the a
+     */
+    public int getA() {
+        return a;
+    }
     static void reverse(int n) {
         int temp = n;
         int sum = 0;

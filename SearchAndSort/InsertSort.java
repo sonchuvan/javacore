@@ -1,11 +1,6 @@
 package SearchAndSort;
 
 public class InsertSort {
-    public static void swap(int a,int b){
-        a = a +b;
-        b = a - b;
-        a = a -b;
-    }
     public static void insertSort(int a[]) {
         int k, j;
         for (int i = 1; i < a.length; i++) {
@@ -24,8 +19,7 @@ public class InsertSort {
         int a = 3;
         int b = 4;
         a += (b - (b = a));
-        System.out.print(b+ " "+(b = a)+" "+b);
-        swap(a, b);System.out.print("a: "+a+", b: "+b);
+        System.out.print("a: "+a+", b: "+b);
         int arr[] = {3,1,2,5,2};
         System.out.print("original array: ");
         for (int i = 0; i < arr.length; i++) {
