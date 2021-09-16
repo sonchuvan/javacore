@@ -12,7 +12,6 @@ class TryCatch{
         try {
             a();
         } catch (Exception e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } finally{
             System.out.print("finally1");
